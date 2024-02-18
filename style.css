@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #253623;
+}
+.container{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container img{
+    width: 300px;
+}
+section{
+    position: relative;
+    /* background-color: cadetblue;  */
+    height: 300px;
+    width: 300px;
+}
+
+#main {
+    position: absolute;
+    top:0;
+    left: 0;
+}
+
+#border{
+    position: absolute;
+    top:0;
+    left: 0;
+    animation: spin 50s linear infinite;
+}
+@keyframes spin 
+{
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+    
+}
