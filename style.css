@@ -2,7 +2,9 @@ body{
     margin: 0;
     padding: 0;
     background-color: #253623;
-    height: 100vh;
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
     width: 100%;
 }
 .container{
